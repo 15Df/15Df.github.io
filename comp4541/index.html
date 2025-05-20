@@ -7,7 +7,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="app"></div>
+    <div class="container">
+        <h1>Decentralized Exchange</h1>
+        <div>
+            <h2>Create Token Request</h2>
+            <input type="text" id="tokenPrice" placeholder="Token Price (in ETH)">
+            <input type="number" id="totalSupply" placeholder="Total Supply">
+            <button id="createTokenButton">Create Token</button>
+        </div>
+        <div>
+            <h2>Pool ETH</h2>
+            <input type="number" id="requestId" placeholder="Request ID">
+            <input type="number" id="tokensToPurchase" placeholder="Tokens to Purchase">
+            <button id="poolETHButton">Pool ETH</button>
+        </div>
+        <div>
+            <h2>Swap Tokens</h2>
+            <input type="text" id="tokenIn" placeholder="Token In Address">
+            <input type="number" id="amountIn" placeholder="Amount In">
+            <input type="text" id="tokenOut" placeholder="Token Out Address">
+            <button id="swapButton">Swap</button>
+        </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"></script>
     <script src="script.js"></script>
 </body>
