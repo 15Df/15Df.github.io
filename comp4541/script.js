@@ -1,6 +1,6 @@
 // Ensure you include this script after the Web3 library in your index.html
 
-const DEX_ADDRESS = '0x2653561f7eF320ae105495Ce829A020a9ddd176E'; // Replace with your deployed contract address
+const DEX_ADDRESS = '0x573FE0621164666974f51807C6D23a22DfC09f66'; // Replace with your deployed contract address
 const TokenFactoryABI = [
     // ABI of your TokenFactory contract
     {
